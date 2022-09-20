@@ -1,0 +1,145 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.printer.open": {
+			"animation_length": 2.5,
+			"bones": {
+				"frontglasspanel": {
+					"position": {
+						"1.5": {
+							"vector": [0, 0, 0]
+						},
+						"2.5": {
+							"vector": [0, 11, 0],
+							"easing": "easeInOutElastic"
+						}
+					}
+				},
+				"display": {
+					"rotation": {
+						"0.5": {
+							"vector": [0, 0, 0]
+						},
+						"0.625": {
+							"vector": [0, 0, -30]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.2917": {
+							"vector": [0, 2, 0],
+							"easing": "easeOutQuint"
+						},
+						"0.625": {
+							"vector": [1.5, 4, 0]
+						},
+						"1.0": {
+							"vector": [1.5, 0, 0],
+							"easing": "easeInQuart"
+						}
+					}
+				},
+				"mainbackpanel": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 12, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"leftglasspanel": {
+					"rotation": {
+						"1.5": {
+							"vector": [0, 0, 0]
+						},
+						"2.0": {
+							"vector": [0, -90, 0],
+							"easing": "easeOutQuart"
+						}
+					},
+					"position": {
+						"0.5": {
+							"vector": [4, 0, 0]
+						},
+						"1.0": {
+							"vector": [4, 0, 0]
+						},
+						"1.5": {
+							"vector": [2, 0, 8],
+							"easing": "easeInExpo"
+						}
+					}
+				},
+				"right2": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"rightglasspanel": {
+					"rotation": {
+						"1.5": {
+							"vector": [0, 0, 0]
+						},
+						"2.0": {
+							"vector": [0, 90, 0],
+							"easing": "easeOutQuart"
+						}
+					},
+					"position": {
+						"0.5": {
+							"vector": [4, 0, 0]
+						},
+						"1.0": {
+							"vector": [4, 0, 0]
+						},
+						"1.5": {
+							"vector": [2, 0, -8],
+							"easing": "easeInExpo"
+						}
+					}
+				},
+				"rightsmallfront": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"toppanel": {
+					"rotation": {
+						"1.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.5": {
+							"vector": [0, 0, 90],
+							"easing": "easeOutExpo"
+						}
+					}
+				},
+				"rightedge": {
+					"position": {
+						"2.0": {
+							"vector": [0, 0, 0]
+						},
+						"2.5": {
+							"vector": [0, 0, -2]
+						}
+					}
+				},
+				"leftedge": {
+					"position": {
+						"2.0": {
+							"vector": [0, 0, 0]
+						},
+						"2.5": {
+							"vector": [0, 0, 2]
+						}
+					}
+				}
+			}
+		}
+	}
+}
